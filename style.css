@@ -753,7 +753,7 @@ a:visited {
     }
 }
 
-@media(min-width: 480px) and (max-width: 800px){
+@media(min-width: 330px) and (max-width: 800px){
     .services-content {
         flex-wrap: wrap;
         font-size: 18px;
@@ -1028,5 +1028,43 @@ a:visited {
 
     #opacity-car {
         height: 65vh;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 480px) {
+    #block-car {
+        height: 45vh;
+    }
+
+    #opacity-car {
+        height: 45vh;
+    }
+
+    .company-name {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .company-slogan {
+        font-size: 24px;
+        padding-top: 60px; 
+    }
+
+    .services-content ul li{
+        font-size: 16px;
+        
+    }
+
+    .services-content ul{
+        width: 90%;
+        
+    }
+
+    .blocks-head {
+        font-size: 20px;
+    }
+
+    .footer-contacts {
+        width: 25%;
     }
 }
